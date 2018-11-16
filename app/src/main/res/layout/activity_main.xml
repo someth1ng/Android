@@ -15,7 +15,7 @@
         android:id="@+id/btnChoose"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="choose"/>
+        android:text="choose dir"/>
 
     <ListView
         android:id="@+id/listViewSongs"

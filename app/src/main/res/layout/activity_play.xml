@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ten bai hat"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:id="@+id/txtTime1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textSize="25dp"/>
+        <TextView
+            android:id="@+id/txtTime2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:textSize="25dp"
+            android:layout_marginLeft="250dp"/>
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekbarSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp
+" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnPrev"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="⇤"
+            android:textSize="30dp"/>
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="||"
+            android:textSize="30dp"/>
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="☐"
+            android:textSize="30dp"/>
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:text="⇥"
+            android:textSize="30dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
